@@ -1488,7 +1488,7 @@ beep = no')
   })
   
   onStop(function() {
-    print("Closing MetaboShiny ~ヾ(＾∇＾)")
+    print("- - - Closing MetaboShiny - - -")
     if(!is.null(session_cl)){
       parallel::stopCluster(session_cl)
     }
